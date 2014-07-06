@@ -48,7 +48,7 @@ Search Text Focus + Button Hover/Active
     .searchText + .searchSubmit:hover,
     .searchText[autofocus] + .searchSubmit 
         border-color: #795880 #795880 #795880 !important;
-        color: white;
+        color: white; 
 
     .searchText:focus + .searchSubmit,
     .searchText[autofocus] + .searchSubmit 
