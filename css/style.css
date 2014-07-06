@@ -1,0 +1,61 @@
+﻿html {
+    background: url(/img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: url(/img/bg-transparent.png) repeat;
+    border: 1px solid #795880;
+    display: inline-block;
+    list-style-type: none;
+    width: 314px;
+    height: 314px;
+    margin: 10px 0 0 10px;
+    position: relative;
+}
+
+    li:first-child {
+        margin-left: 0;
+    }
+
+    li img {
+        width: 100%;
+        height: 100%;
+    }
+
+    li span {
+        width: 100%;
+        top: 40%;
+        left: 0;
+        color: #b5a3b8;
+        text-shadow: -1px 0 #1d0f20, 0 1px #1d0f20, 1px 0 #1d0f20, 0 -1px #1d0f20;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 30px;
+        word-wrap: break-word;
+        position: absolute;
+    }
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.opacity {
+    opacity: 0.70;
+    -webkit-opacity: 0.70;
+    -moz-opacity: 0.70;
+}
