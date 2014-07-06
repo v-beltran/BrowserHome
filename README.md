@@ -5,7 +5,7 @@ A gundam-themed home page for any web browser that contains 9 user-chosen sites.
 
 default.html
 ===========
-Tile Links - Replace the "#" in each <a> tag with a URL of your choice. 
+Tile Links - Replace the "#" in each <a> tag with a URL of your choice.<br/>
 Title Text - Replace the "Title Here" in each <span> tag with a title describing the specified site.
 
 style.css
